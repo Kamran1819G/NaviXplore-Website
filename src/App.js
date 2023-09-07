@@ -59,7 +59,7 @@ function App() {
         <Route path="/navi-mumbai-metro-map" element={<NaviMumbaiMetroMap />} />
         <Route path="/navixplore-app-features" element={<NaviXploreAppFeatures/>} />
         <Route path="/media-coverage" element={<MediaCoverage />} />
-        <Route path="/advertize-with-us" element={<AdvertiseWithUs />} />
+        <Route path="/advertise-with-us" element={<AdvertiseWithUs />} />
       </Routes>
       <Footer />
     </>

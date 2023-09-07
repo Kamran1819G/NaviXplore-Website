@@ -1,0 +1,26 @@
+.intro {
+  background-color: #f8f9fa !important;
+  background-image: url(../assets/images/Metro-Station.jpg);
+  background-size: cover;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  z-index: 1;
+  position: relative;
+  .intro-content {
+    margin-top: 15vh;
+    font-family: "Fredoka";
+    .text {
+      span{
+        font-size: 7vh;
+      }
+    }
+    .text-white {
+      color: #fff;
+    }
+  }
+  .download-options{
+    img{
+        border-radius: 12px;
+    }
+  }
+}

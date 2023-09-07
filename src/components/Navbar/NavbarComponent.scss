@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Fredoka";
+    .navbar-brand {
+        font-size: 4vh;
+        span{
+            font-size: 5vh;
+        }
+    }
+  a {
+    font-size: 2.5vh;
+    text-transform: capitalize !important;
+    color: rgb(255, 128, 0);
+    &:hover {
+      color: rgb(255, 128, 0);
+    }
+    &:active {
+      color: rgb(255, 128, 0);
+    }
+  }
+}

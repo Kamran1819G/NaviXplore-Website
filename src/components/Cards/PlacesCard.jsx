@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -34,13 +33,5 @@ function PlacesCard({ data }) {
   );
 }
 
-PlacesCard.propTypes = {
-  data: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-    image_url: PropTypes.string.isRequired,
-  }).isRequired,
-};
 
 export default PlacesCard;

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FooterComponent.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -43,19 +44,19 @@ function FooterComponent() {
               <h4>For Xplorers</h4>
               <ul>
                 <li>
-                  <a>Explore Navi Mumbai</a>
+                  <Link>Explore Navi Mumbai</Link>
                 </li>
                 <li>
-                  <a>Navi Mumbai Travel Hacks</a>
+                  <Link>Navi Mumbai Travel Hacks</Link>
                 </li>
                 <li>
-                  <a>Live Announcements</a>
+                  <Link>Live Announcements</Link>
                 </li>
                 <li>
-                  <a>Commuter News</a>
+                  <Link>Commuter News</Link>
                 </li>
                 <li>
-                  <a>Media Coverage</a>
+                  <Link>Media Coverage</Link>
                 </li>
               </ul>
             </Col>
@@ -63,22 +64,22 @@ function FooterComponent() {
               <h4>Quick Links</h4>
               <ul>
                 <li>
-                  <a>Home</a>
+                  <Link>Home</Link>
                 </li>
                 <li>
-                  <a>About NaviXplore App</a>
+                  <Link>About NaviXplore App</Link>
                 </li>
                 <li>
-                  <a>Blog</a>
+                  <Link>Blog</Link>
                 </li>
                 <li>
-                  <a>Advertise with us</a>
+                  <Link>Advertise with us</Link>
                 </li>
                 <li>
-                  <a>Terms Of Use</a>
+                  <Link>Terms Of Use</Link>
                 </li>
                 <li>
-                  <a>Privacy Policy</a>
+                  <Link>Privacy Policy</Link>
                 </li>
               </ul>
             </Col>
@@ -86,29 +87,29 @@ function FooterComponent() {
               <h4 className="text-center">Follow Us</h4>
               <ul className="social-icons">
                 <li>
-                  <a>
+                  <Link>
                     <i className="bi bi-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i className="bi bi-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i className="bi bi-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i className="bi bi-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i className="bi bi-youtube"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </Col>

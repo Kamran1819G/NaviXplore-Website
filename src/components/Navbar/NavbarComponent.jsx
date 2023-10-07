@@ -8,9 +8,9 @@ function NavbarComponent() {
     <>
       <Navbar collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="/home">
+          <NavLink to="/home" className="navbar-brand">
             Navi<span>X</span>plore
-          </Navbar.Brand>
+          </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

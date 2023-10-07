@@ -2,21 +2,29 @@
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: "Fredoka";
-    .navbar-brand {
-        font-size: 4vh;
-        span{
-            font-size: 5vh;
-        }
+  .navbar-brand {
+    font-size: 4vh;
+    color: rgb(255, 128, 0);
+    span {
+      font-size: 5vh;
     }
-  a {
+  }
+  .nav-link {
     font-size: 2.5vh;
     text-transform: capitalize !important;
     color: rgb(255, 128, 0);
-    &:hover {
-      color: rgb(255, 128, 0);
+  }
+
+  .dropdown-item {
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    &:hover{
+      background-color: rgb(220, 220, 220);
     }
-    &:active {
-      color: rgb(255, 128, 0);
+    &.active{
+      color: rgb(255, 255, 255);
+      background-color: rgb(255, 128, 0);
     }
   }
 }

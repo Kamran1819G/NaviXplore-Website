@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
@@ -16,18 +15,23 @@ function NavbarComponent() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavDropdown title="About NaviXplore" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.3">
-                  Whats New
-                </NavDropdown.Item>
+                <NavLink to="/changelogs" className="dropdown-item">
+                  What`s New
+                </NavLink>
                 <NavLink to="/navixplore-app-features" className="dropdown-item">
                   App Features
                 </NavLink>
-                <NavDropdown.Item href="#action/3.4">Feedback</NavDropdown.Item>
+                <NavLink to="/feedback" className="dropdown-item">
+                  Feedback
+                </NavLink>
               </NavDropdown>
               <NavDropdown title="NaviXplore Guide" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/explore-navi-mumbai" className="dropdown-item">
                   Explore Navi Mumbai
-                </NavDropdown.Item>
+                </NavLink>
+                <NavLink to="/mumbai-local-railmap" className="dropdown-item">
+                  Mumbai Local RailMap
+                </NavLink>
                 <NavLink to="/navi-mumbai-metro-map" className="dropdown-item">
                   Navi Mumbai Metro Map
                 </NavLink>

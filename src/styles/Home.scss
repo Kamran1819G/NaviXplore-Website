@@ -26,3 +26,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .intro {
+    .intro-content {
+      margin-top: 3vh;
+      .text {
+        span {
+          font-size: 5vh;
+        }
+      }
+    }
+  }
+}

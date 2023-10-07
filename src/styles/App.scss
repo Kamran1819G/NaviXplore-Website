@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka:400,500,600,700");
+
+.page-heading-section {
+  padding: 50px;
+  background-color: #e9ecef;
+  .page-heading {
+    padding-left: 4vw;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(255, 128, 0);
+  }
+}
+.page-description {
+  color: #808080;
+}
+@media (max-width: 768px) {
+  .page-heading-section {
+    padding: 20px;
+    text-align: center;
+    .page-heading {
+      font-size: 4vh;
+    }
+  }
+}

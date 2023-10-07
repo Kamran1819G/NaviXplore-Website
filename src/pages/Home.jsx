@@ -1,5 +1,5 @@
 import {Container, Col, Row } from 'react-bootstrap'
-import '../scss/Home.scss'
+import '../styles/Home.scss'
 
 import mockup from '../assets/images/mockup.png'
 import mockup2 from '../assets/images/mockup2.png'

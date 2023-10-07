@@ -20,26 +20,8 @@ function FooterComponent() {
                 services, amenities and more at your fingertips.
               </span>
             </Col>
-            <Col lg={2} className="align-self-center">
-              <img
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                alt="get-on-playstore"
-                width={180}
-              />
-            </Col>
-            <Col lg={2} className="align-self-center">
-              <img
-                src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
-                alt="get-on-appstore"
-                width={150}
-              />
-            </Col>
           </Row>
           <Row className="pt-4">
-            <Col lg={3} className="text-center">
-              <h4>Company</h4>
-              <p>lorem</p>
-            </Col>
             <Col lg={3} className="for-xplorers">
               <h4>For Xplorers</h4>
               <ul>

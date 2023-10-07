@@ -1,4 +1,4 @@
-import "./scss/App.scss";
+import "./styles/App.scss";
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +17,7 @@ import NotFound from "./pages/NotFound";
 
 import Navbar from "./components/Navbar/NavbarComponent";
 import Footer from "./components/Footer/FooterComponent";
-import PostPage from "./components/[PostPage]";
+import PostPage from "./components/PostPage/[PostPage]";
 
 import FamousPlacesJSON from "./json/FamousPlaces.json";
 import TouristDestinationsJSON from "./json/TouristDestinations.json";

@@ -10,9 +10,7 @@
     }
   }
   .nav-link {
-    font-size: 2.5vh;
     text-transform: capitalize !important;
-    color: rgb(255, 128, 0);
   }
 
   .dropdown-item {
@@ -26,5 +24,11 @@
       color: rgb(255, 255, 255);
       background-color: rgb(255, 128, 0);
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .navlink{
+    font-size: 1vh;
   }
 }

@@ -8,7 +8,7 @@ function NavbarComponent() {
     <>
       <Navbar collapseOnSelect expand="lg">
         <Container>
-          <NavLink to="/home" className="navbar-brand">
+          <NavLink to="/" className="navbar-brand">
             Navi<span>X</span>plore
           </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

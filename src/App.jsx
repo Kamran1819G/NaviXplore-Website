@@ -1,5 +1,5 @@
 import "./scss/App.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
@@ -36,45 +36,37 @@ function App() {
 
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/changelogs" element={<Changelogs />} />
-          <Route path="/feedback" element={<Feedback />} />
-          <Route path="/explore-navi-mumbai" element={<ExploreNaviMumbai />} />
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/changelogs" element={<Changelogs />} />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/explore-navi-mumbai" element={<ExploreNaviMumbai />} />
+        <Route path="/navi-mumbai-metro-map" element={<NaviMumbaiMetroMap />} />
+        <Route path="/mumbai-local-railmap" element={<MumbaiLocalRailMap />} />
+        <Route
+          path="/navixplore-app-features"
+          element={<NaviXploreAppFeatures />}
+        />
+        <Route path="/media-coverage" element={<MediaCoverage />} />
+        <Route path="/advertise-with-us" element={<AdvertiseWithUs />} />
+        {FamousPlaces.map((item) => (
           <Route
-            path="/navi-mumbai-metro-map"
-            element={<NaviMumbaiMetroMap />}
+            key={item.id}
+            path={`/places/${item.name}`}
+            element={<PostPage data={item} />}
           />
+        ))}
+        {TouristDestinations.map((item) => (
           <Route
-            path="/mumbai-local-railmap"
-            element={<MumbaiLocalRailMap />}
+            key={item.id}
+            path={`/places/${item.name}`}
+            element={<PostPage data={item} />}
           />
-          <Route
-            path="/navixplore-app-features"
-            element={<NaviXploreAppFeatures />}
-          />
-          <Route path="/media-coverage" element={<MediaCoverage />} />
-          <Route path="/advertise-with-us" element={<AdvertiseWithUs />} />
-          {FamousPlaces.map((item) => (
-            <Route
-              key={item.id}
-              path={`/places/${item.name}`}
-              element={<PostPage data={item} />}
-            />
-          ))}
-          {TouristDestinations.map((item) => (
-            <Route
-              key={item.id}
-              path={`/places/${item.name}`}
-              element={<PostPage data={item} />}
-            />
-          ))}
-          <Route path="*" element={<NotFound/>} />
-        </Routes>
-        <Footer />
-      </Router>
+        ))}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

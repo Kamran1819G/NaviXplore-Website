@@ -1,11 +1,17 @@
-img, iframe{
+.postpage {
+  img,
+  iframe {
     width: 100%;
     height: 70vh;
     border-radius: 12px;
+  }
 }
 
 @media (max-width: 768px) {
-    img, iframe{
-        height: 40vh;
+  .postpage {
+    img,
+    iframe {
+      height: 40vh;
     }
+  }
 }

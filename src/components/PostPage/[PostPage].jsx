@@ -14,7 +14,7 @@ function PostPage({ data }) {
       <div className="page-heading-section">
         <span className="page-heading">{data.name}</span>
       </div>
-      <Container>
+      <Container className="postpage">
         <Row className="justify-content-center">
           <Col lg={12} className="mt-4">
             <img src={data.image_url} alt={data.name} />

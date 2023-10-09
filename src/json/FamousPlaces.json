@@ -1,30 +1,27 @@
 [
   {
-    "id": 1,
     "name": "Belapur Fort",
     "location": "Belapur, Navi Mumbai",
     "embed_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.337099667221!2d73.02576227520359!3d19.004861782185106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c308747316fd%3A0x62627e1e095f42d9!2sBelapur%20Fort!5e0!3m2!1sen!2sin!4v1696679593262!5m2!1sen!2sin",
     "content": "The Belapur Fort is a fort near the township of Belapur in Navi Mumbai (New Bombay), Maharashtra, India. The fort was built by the Siddis of Janjira. It was later conquered by the Portuguese, and then Marathas. In 1733, the Marathas, led by Chimaji Appa, seized the fort from the Portuguese.\n The fort has been the venue for the 'Sounds of the Sufi' music festival, which is held every year in the month of February, since 2010. The festival is organised by the Navi Mumbai Municipal Corporation (NMMC) to promote tourism in the city. The festival has performances by Sufi singers and qawwals, and also has food stalls.",
     "image_url": "https://lh5.googleusercontent.com/p/AF1QipPtBBuD2gCgnuU0VLraGHXoBmt7ChXrlCOdaVCd=w408-h306-k-no",
-    "last_updated": "2019-01-01T00:00:00Z"
+    "last_updated": ""
   },
   {
-    "id": 2,
     "name": "Rock Garden",
     "location": "Nerul, Navi Mumbai",
     "embed_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.767247632266!2d73.01502607832728!3d19.02997523617915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3c08bdddca1%3A0x39ab28d99fed16bf!2sRock%20Garden!5e0!3m2!1sen!2sin!4v1696680086850!5m2!1sen!2sin",
-    "content": "",
+    "content": "The Rock Garden is a public park situated in Nerul, Navi Mumbai. The park is spread across 119 hectares (290 acres) of land and is divided into 45 sectors. The park was inaugurated in November 2010. The park has a jogging track, a theme park, a golf course, a cricket ground, a food court, botanical gardens, and a theme park. The park is also home to the ISKCON temple, which is a replica of the ISKCON temple in Tirupati.",
     "image_url": "https://lh5.googleusercontent.com/p/AF1QipOrvkWGCc0bQ32oyhzpufUvmszqPOXPax2Oqe_8=w426-h240-k-no",
-    "last_updated": "2019-01-01T00:00:00Z"
+    "last_updated": ""
   },
   {
-    "id": 3,
-    "name": "Mini Seashore",
-    "location": "Vashi, Navi Mumbai",
-    "embed_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.622468891806!2d72.99011777490023!3d19.080329582125128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c75a6666bff5%3A0xd16b8d1db1b37bd1!2sMini%20Seashore!5e0!3m2!1sen!2sin!4v1696680131993!5m2!1sen!2sin",
-    "content": "",
-    "image_url": "https://lh5.googleusercontent.com/p/AF1QipO2fmy0S_U3e3SGJNXT-LmZWTRlSImDTWjQzcdL=w408-h299-k-no",
-    "last_updated": "2019-01-01T00:00:00Z"
+    "name": "DY Patil Stadium",
+    "location": "Nerul, Navi Mumbai",
+    "embed_map_url": "",
+    "content": "DY Patil Stadium is a football and a cricket stadium at Nerul, Navi Mumbai, Maharashtra, India. The stadium has a capacity of 55,000 people. Although the stadium is used mostly for cricket purposes, it has facilities for other sports such as football, tennis, badminton, and squash. The stadium has hosted many international cricket and football matches. The stadium is also the home ground of the Mumbai Indians cricket team and the Mumbai City FC football team.",
+    "image_url": "https://lh5.googleusercontent.com/p/AF1QipMbeGpGbcLbJ03dN-qMA-xBtz-ADSKP1JNCStQc=s483-k-no",
+    "last_updated": ""
   },
   {
     "name": "Pandavkada Falls",
@@ -32,6 +29,38 @@
     "embed_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.021147940487!2d73.04872297489973!3d19.062807782139046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c185936be499%3A0x3e03791643cc9474!2sPandavkada%20Waterfalls!5e0!3m2!1sen!2sin!4v1696687207993!5m2!1sen!2sin",
     "content": "Pandavkada Falls is a waterfall located Kharghar, a suburb of Navi Mumbai. The waterfall, about 107 metres high is a type of 'plunge' waterfall in nature pouring in massive amounts of water on the rocky surface underneath. The waterfall is perennial and is especially beautiful in the monsoon season. The waterfall is a popular picnic spot and is a very famous tourist destination. The waterfall is also a very famous spot for one day treks.",
     "image_url": "https://lh5.googleusercontent.com/p/AF1QipP8Zmj-qw1ZnduwahOSAJ00VWSta92KNaT_XVg-=w408-h544-k-no",
-    "last_updated": "2018-05-20T12:00:00.000Z"
+    "last_updated": ""
+  },
+  {
+    "name": "Central Park",
+    "location": "Kharghar, Navi Mumbai",
+    "embed_map_url": "",
+    "content": "Central Park is a public park situated in Kharghar, Navi Mumbai. It is the largest park in the city. The park is spread across 119 hectares (290 acres) of land and is divided into 45 sectors. The park was inaugurated in November 2010. The park has a jogging track, a theme park, a golf course, a cricket ground, a food court, botanical gardens, and a theme park. The park is also home to the ISKCON temple, which is a replica of the ISKCON temple in Tirupati.",
+    "image_url": "https://lh5.googleusercontent.com/p/AF1QipMajan5PT6YoXMf15iwzYsSfDrD6e6pjDQaZpFD=w203-h114-k-no",
+    "last_updated": ""
+  },
+  {
+    "name": "Wonders Park",
+    "location": "Nerul, Navi Mumbai",
+    "embed_map_url": "",
+    "content": "Wonders Park is a public park situated in Nerul, Navi Mumbai. The park is spread across 119 hectares (290 acres) of land and is divided into 45 sectors. The park was inaugurated in November 2010. The park has a jogging track, a theme park, a golf course, a cricket ground, a food court, botanical gardens, and a theme park. The park is also home to the ISKCON temple, which is a replica of the ISKCON temple in Tirupati.",
+    "image_url": "https://lh5.googleusercontent.com/p/AF1QipMplCLhG3oeOEsjpr_Iq8PrAF_od2VVRkNdXA-o=w203-h152-k-no",
+    "last_updated": ""
+  },
+  {
+    "name": "ISKCON Temple",
+    "location": "Kharghar, Navi Mumbai",
+    "embed_map_url": "",
+    "content": "",
+    "image_url": "https://lh5.googleusercontent.com/p/AF1QipNzYv002cW5nkYHCb4QQiNisPXLjKs-C5HTi_fG=w203-h152-k-no",
+    "last_updated": ""
+  },
+  {
+    "name": "Kharghar Hills",
+    "location": "Kharghar, Navi Mumbai",
+    "embed_map_url": "",
+    "content": "",
+    "image_url": "https://lh5.googleusercontent.com/p/AF1QipPSM3Dpwh39ZMq3zq365s95VEGDyPhpeDDRvqXC=w203-h114-k-no",
+    "last_updated": ""
   }
 ]

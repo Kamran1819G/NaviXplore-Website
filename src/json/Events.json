@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "imageUrl": "https://i.ibb.co/0jZzQYH/1.jpg",
+        "name": "Burger Party",   
+        "location": "Kathmandu",
+        "data": "2020-12-12",
+    },
+    {
+        "id": "2",
+        "imageUrl": "https://i.ibb.co/0jZzQYH/1.jpg",
+        "name": "Burger Party",
+        "location": "Kathmandu",
+        "data": "2020-12-12",
+    }
+]
